@@ -1,10 +1,12 @@
 import React from 'react';
 import "./style.scss";
+import TypeSection from "./Type"
+
 
 const index = () => {
    return (
-      <div>
-         <h1>Home</h1>
+      <div className='home-page'>
+         <TypeSection />
       </div>
    );
 };

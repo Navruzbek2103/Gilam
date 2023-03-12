@@ -2,9 +2,11 @@ import React from 'react';
 import "./style.scss";
 const index = () => {
    return (
-      <div>
+     <footer className="footer">
+       <div className="container">
          <h1>Footer</h1>
-      </div>
+       </div>
+     </footer>
    );
 };
 
